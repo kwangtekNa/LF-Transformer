@@ -1,0 +1,27 @@
+seed = 12
+
+[data]
+normalization = 'quantile'
+path = 'data/higgs_small'
+
+[model]
+activation = 'reglu'
+attention_dropout = 0.4029932385962508
+d_ffn_factor = 1.69531381032781
+d_token = 216
+ffn_dropout = 0.079467557518447
+initialization = 'kaiming'
+n_heads = 8
+n_layers = 3
+prenormalization = true
+residual_dropout = 0.02513098455436895
+f = 1
+
+[training]
+batch_size = 500
+eval_batch_size = 500
+lr = 0.0003417434421865315
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 2.742031223114596e-05

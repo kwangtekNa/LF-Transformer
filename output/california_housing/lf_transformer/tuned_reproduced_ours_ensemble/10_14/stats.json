@@ -1,0 +1,29 @@
+{
+    "dataset": "california_housing",
+    "algorithm": "ftrow2_tokenfi_iter_250",
+    "config": {
+        "source": "output\\california_housing\\ft_transformer\\tuned_reproduced_ours",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.3662420736043455,
+            "score": -0.3662420736043455
+        },
+        "val": {
+            "rmse": 0.45782659240164014,
+            "score": -0.45782659240164014
+        },
+        "test": {
+            "rmse": 0.44747623631374556,
+            "score": -0.44747623631374556
+        }
+    }
+}

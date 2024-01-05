@@ -1,0 +1,29 @@
+{
+    "dataset": "microsoft",
+    "algorithm": "ftrow2_tokenfi_iter_1000",
+    "config": {
+        "source": "output/microsoft/ft_transformer/tuned_reproduced_ours",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.7109268148357474,
+            "score": -0.7109268148357474
+        },
+        "val": {
+            "rmse": 0.7189745014082233,
+            "score": -0.7189745014082233
+        },
+        "test": {
+            "rmse": 0.7406042339077057,
+            "score": -0.7406042339077057
+        }
+    }
+}

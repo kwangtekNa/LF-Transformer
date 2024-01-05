@@ -1,0 +1,30 @@
+seed = 4
+
+[data]
+normalization = 'quantile'
+path = 'data/yahoo'
+y_policy = 'mean_std'
+
+[model]
+activation = 'reglu'
+attention_dropout = 0.1089296521527966
+d_ffn_factor = 1.333333333333333
+d_token = 72
+ffn_dropout = 0.2575055188025679
+initialization = 'kaiming'
+n_heads = 8
+n_layers = 2
+prenormalization = true
+residual_dropout = 0.0
+f = 2
+
+[training]
+batch_size = 125
+eval_batch_size = 125
+lr = 0.0001880927635101398
+lr_n_decays = 0
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 9.146499420868606e-05
+

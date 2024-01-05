@@ -1,0 +1,29 @@
+{
+    "dataset": "yahoo",
+    "algorithm": "ftrow2_tokenfi_iter_125f2",
+    "config": {
+        "source": "output/yahoo/ft_transformer/tuned_reproduced_ours3",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.7516595465205078,
+            "score": -0.7516595465205078
+        },
+        "val": {
+            "rmse": 0.7901663961476206,
+            "score": -0.7901663961476206
+        },
+        "test": {
+            "rmse": 0.7844675986628318,
+            "score": -0.7844675986628318
+        }
+    }
+}

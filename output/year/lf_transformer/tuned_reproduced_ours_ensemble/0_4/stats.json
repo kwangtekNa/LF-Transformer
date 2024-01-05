@@ -1,0 +1,29 @@
+{
+    "dataset": "year",
+    "algorithm": "ftrow2_tokenfi_iter_1000",
+    "config": {
+        "source": "output/year/ft_transformer/tuned_reproduced_ours",
+        "seeds": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 8.609442267116094,
+            "score": -8.609442267116094
+        },
+        "val": {
+            "rmse": 8.729245700535628,
+            "score": -8.729245700535628
+        },
+        "test": {
+            "rmse": 9.000362694386201,
+            "score": -9.000362694386201
+        }
+    }
+}
